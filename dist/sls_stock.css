@@ -1,0 +1,109 @@
+.ly-box, .ly-fixed-top .fixed-box, .ly-fixed-bottom .fixed-box { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.ly-top-ib, .ly-ver-cen { display: inline-block; vertical-align: top; }
+
+.ly-cen-ib { display: inline-block; vertical-align: middle; }
+
+.ly-ver-cen { height: 100%; }
+
+.ly-fl { float: left; }
+
+.ly-fr { float: right; }
+
+.ly-wh100, .ly-wh100-b { width: 100%; height: 100%; }
+
+.ly-wh100-b { display: block; }
+
+.ly-flex1, .ly-fixed-top .fixed-btn, .ly-fixed-bottom .fixed-btn { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
+.ly-flexc { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.ly-flexc-y, .ly-flexc-sb, .ly-fixed-top .fixed-box, .ly-fixed-bottom .fixed-box, .ly-flexc-sa { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.ly-flexc-x { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.ly-flexc-sb, .ly-fixed-top .fixed-box, .ly-fixed-bottom .fixed-box { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.ly-flexc-sa { -ms-flex-pack: distribute; justify-content: space-around; }
+
+.ly-flex-newline { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.ly-vihide { visibility: hidden; }
+
+.ly-scroll { -webkit-overflow-scrolling: touch; }
+
+.ly-disable-touch { -ms-touch-action: none; touch-action: none; }
+
+.ly-fixed-top, .ly-fixed-top .fixed-box { height: 0.8rem; }
+
+.ly-fixed-top .fixed-box { -webkit-box-shadow: 0.02pxrem 0.04rem 0.03rem rgba(100, 101, 102, 0.08); box-shadow: 0.02pxrem 0.04rem 0.03rem rgba(100, 101, 102, 0.08); padding-left: 0.1rem; padding-right: 0.1rem; position: fixed; top: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.5); }
+
+.ly-fixed-top .fixed-btn { padding-left: 0.1rem; padding-right: 0.1rem; }
+
+.ly-fixed-bottom, .ly-fixed-bottom .fixed-box { height: 1rem; }
+
+.ly-fixed-bottom .fixed-box { -webkit-box-shadow: -0.02pxrem 0.04rem 0.03rem rgba(100, 101, 102, 0.08); box-shadow: -0.02pxrem 0.04rem 0.03rem rgba(100, 101, 102, 0.08); padding-left: 0.1rem; padding-right: 0.1rem; position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.5); }
+
+.ly-fixed-bottom .fixed-btn { padding-left: 0.1rem; padding-right: 0.1rem; }
+
+.ly-content { margin: 0 auto; width: 320px; height: auto; }
+
+.img-auto { width: auto; height: auto; max-width: 100%; max-height: 100%; }
+
+.img-w100 { width: 100%; height: auto; max-height: 100%; }
+
+.img-h100 { width: auto; height: 100%; max-width: 100%; }
+
+.img-mw100 { width: auto; max-width: 100%; }
+
+.img-mh100 { height: auto; max-height: 100%; }
+
+.txt-blod { font-weight: bold; }
+
+.txt-normal { font-weight: normal; }
+
+.txt-light { font-weight: lighter; }
+
+.txt-l { text-align: left; }
+
+.txt-c { text-align: center; }
+
+.txt-r { text-align: right; }
+
+.txt-ellipsis { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.txt-mellipsis { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; text-overflow: ellipsis; white-space: normal; word-break: break-all; word-wrap: break-word; overflow: hidden; }
+
+.txt-nowrap { white-space: nowrap; }
+
+.txt-newline { white-space: pre-wrap; word-wrap: normal; word-break: break-all; }
+
+.clearfix { display: block; clear: both; float: none; padding: 0; margin: 0; width: 100%; height: 0.01px; border: 0.01px solid transparent; overflow: hidden; }
+
+.tip-primary { color: #027db4; }
+
+.tip-success { color: #4cd964; }
+
+.tip-warning { color: #f0ad4e; }
+
+.tip-error { color: #dd524d; }
+
+.tip-import { color: red; }
+
+.char-normal { color: #333; }
+
+.char-inverse { color: #fff; }
+
+.char-placeholder { color: #808080; }
+
+.char-disable { color: #c0c0c0; }
+
+.fs-default { font-size: 0.26rem; }
+
+.fs-title { font-size: 0.32rem; }
+
+.fs-middle { font-size: 0.28rem; }
+
+.fs-small { font-size: 0.24rem; }
+
+.fs-mini { font-size: 0.22rem; }

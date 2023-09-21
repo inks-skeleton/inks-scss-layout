@@ -1,0 +1,91 @@
+@function rem($num) {
+  @return $num / $pxToUnit + $unit;
+}
+
+// [SLS] body,html初始化设置 (仅可修改值)
+$view_width: 100%; // 宽度
+$view_height: auto; // 高度
+$view_min_width: 320px; // 最小宽度
+$view_max_width: 960px; // 最大宽度
+
+// [SLS] 栅格布局设置 (仅可修改值)
+$grid_num: 24; // 总格数
+$grid_screen_map: ( // 栅格屏幕大小配置列表
+  xl: 1200px,
+  lg: 960px,
+  md: 720px,
+  sm: 540px,
+  xs: 360px
+);
+// [SLS] 单位及转换比例设置 (仅可修改值)
+$unit: rem;
+$pxToUnit: 100;
+
+// [THEME] 常用变量 (仅可修改值及新增)
+$title_bar_h: rem(44); // 标题栏高度
+$tab_bar_h: rem(50); // 底部选项卡高度
+$header_h: rem(80); // 头部高度
+$footer_h: rem(100); // 底部高度
+$banner_h: rem(600); // banner高度
+
+$divide: rem(20); // 元素间距
+$divide_s: rem(10); // 元素间距Small
+$divide_m: rem(30); // 元素间距Middle
+
+$radius: rem(10); // 元素圆角
+$radius_s: rem(6); // 元素圆角Small
+$radius_m: rem(20); // 元素圆角Middle
+
+// [THEME] 边框颜色 (自定义)
+$border_color: #e8e8e8;
+
+// [THEME] 背景颜色 (仅可修改值及新增)
+$bg_color: #ffffff;
+$bg_color_grey: #f8f8f8;
+$bg_color_hover: #f1f1f1;
+$bg_color_mask: rgba(0, 0, 0, 0.4);
+$bg_color_fixed: rgba(255,255,255,0.5);
+
+// [THEME] 行为颜色 (仅可修改值及新增，新增需要增加对应map)
+$color_primary: #027db4;
+$color_success: #4cd964;
+$color_warning: #f0ad4e;
+$color_error: #dd524d;
+$color_import: red;
+
+$color_tips_map:( // 用于循环生成行为颜色class
+  primary: $color_primary,
+  success: $color_success,
+  warning: $color_warning,
+  error: $color_error,
+  import: $color_import
+);
+
+// [THEME] 字体颜色 (仅可修改值及新增，新增需要增加对应map)
+$text_color: #333;
+$text_color_inverse: #fff;
+$text_color_grey: #999;
+$text_color_placeholder:  #808080;
+$text_color_disable: #c0c0c0;
+
+$color_text_map:( // 用于循环生成字体颜色class
+  normal: $text_color,
+  inverse: $text_color_inverse,
+  placeholder: $text_color_placeholder,
+  disable: $text_color_disable
+);
+
+// [THEME] 字体大小 (仅可修改值及新增，新增需要增加对应map)
+$fs_default: rem(26);
+$fs_title: rem(32);
+$fs_middle: rem(28);
+$fs_small: rem(24);
+$fs_mini: rem(22);
+
+$fs_map:( // 用于循环生成字体class
+  default: $fs_default,
+  title: $fs_title,
+  middle: $fs_middle,
+  small: $fs_small,
+  mini: $fs_mini
+);
